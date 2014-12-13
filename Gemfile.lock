@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    docomo_image_recognition (0.1.0)
+      rest-client (~> 1.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mime-types (2.4.3)
+    netrc (0.10.0)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  docomo_image_recognition!
