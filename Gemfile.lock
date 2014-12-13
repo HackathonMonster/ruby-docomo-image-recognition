@@ -8,9 +8,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     curb (0.8.6)
+    rake (10.4.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   docomo_image_recognition!
+  rake

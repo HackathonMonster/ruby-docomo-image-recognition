@@ -15,4 +15,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir['specs/**/*']
 
   s.add_dependency 'curb', '~> 0.8'
+
+  s.add_development_dependency 'rake'
 end
