@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.files = Dir['{config,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['specs/**/*']
 
-  s.add_dependency 'rest-client', '~> 1.7'
+  s.add_dependency 'curb', '~> 0.8'
 end
