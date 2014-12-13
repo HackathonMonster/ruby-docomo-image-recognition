@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    docomo_image_recognition (0.1.0)
+    docomo_image_recognition (0.1.1)
       curb (~> 0.8)
 
 GEM
