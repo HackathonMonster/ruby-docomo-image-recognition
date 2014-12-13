@@ -47,8 +47,8 @@ module DocomoImageRecognition
     def raise_on_error!(body, status)
       case status.split(' ')[0].to_i
       when 200 then return
-      when 401 then fail 'not authorized', ApiError.new(body)
-      when 400 then fail 'bad request', ApiError.new(body)
+      when 401 then fail ApiError.new(body), 'not authorized'
+      when 400 then fail ApiError.new(body), 'bad request'
       end
     end
   end
